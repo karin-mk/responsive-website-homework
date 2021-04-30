@@ -127,3 +127,36 @@ p {
 .element-heading {
   margin-bottom: 16px;
 }
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 54px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 20px;
+    padding: 0 20px 0 20px;
+  }
+
+  .index-img {
+    display: none;
+  }
+
+  .about-img {
+    margin-top: 15px;
+  }
+
+  .element-link {
+    display: flex;
+    justify-content: center;
+  }
+
+  .email-link {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+}
